@@ -1,0 +1,169 @@
+.intro {
+  background-color: #08263f;
+}
+
+.container-intro {
+  width: 1440px;
+  min-height: 519px;
+}
+
+.intro-txt {
+  color: #fed097;
+  text-align: center;
+  padding-top: 141px;
+  font-family: "roboto";
+  font-size: 19px;
+}
+
+.intro-test {
+  font-family: "roboto";
+  font-size: 36px;
+  color: #fff;
+  font-style: regular;
+  padding: 30px 200px 0;
+}
+.resources {
+  background-color: #edf3f6;
+}
+
+.container-resources {
+  min-height: 432px;
+}
+.resources-title {
+  font-family: "roboto";
+  font-size: 36px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 68px;
+}
+
+.res-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  list-style: none;
+}
+
+.res-item {
+  min-width: 260px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 47px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.res-icon {
+  width: 30px;
+}
+
+.res-subtitle {
+  color: #031622;
+  font-family: "roboto";
+  font-style: regular;
+  font-size: 24px;
+}
+
+.res-txt {
+  font-family: "roboto";
+  font-size: 16px;
+  color: #031622;
+}
+/* Eliza */
+
+/* Zhenishgul */
+.Section-projects {
+  height: 1510px;
+  font-family: Roboto;
+}
+.project-main-title {
+  text-align: center;
+  width: 111px;
+  height: 30px;
+  font-size: 20px;
+  color: #225b93;
+  margin-left: 500px;
+  margin-top: 93px;
+}
+.projects-title {
+  text-align: center;
+  width: 595px;
+  height: 40px;
+  font-size: 30px;
+  color: #031622;
+  margin: 0 auto;
+}
+.project-1 {
+  position: relative;
+  height: 500;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.section-1 {
+  width: 427px;
+  height: 500px;
+  background-image: url(./image1/1.png);
+}
+.section-2 {
+  width: 855px;
+  height: 500px;
+  padding-left: auto;
+  background-image: url(./image1/2.png);
+}
+.btn-b-1 {
+  width: 100px;
+  height: 40px;
+  margin-top: 450px;
+  background: #e6e6e6;
+  border-radius: 27px;
+  color: black;
+}
+.btn-s-1 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 129px;
+  right: 128px;
+  top: 450px;
+  background: #e6e6e6;
+  border-radius: 27px;
+}
+
+.project-2 {
+  height: 500;
+  display: flex;
+  margin-top: 40px;
+}
+
+.section-3 {
+  width: 855px;
+  height: 500px;
+  padding-left: auto;
+  background-image: url(./image1/3.png);
+}
+.section-4 {
+  width: 427px;
+  height: 500px;
+  background-image: url(./image1/4.png);
+}
+.btn-b-2 {
+  width: 100px;
+  height: 40px;
+  margin-top: 450px;
+  background: #e6e6e6;
+  border-radius: 27px;
+  color: black;
+}
+.btn-s-2 {
+  width: 100px;
+  height: 40px;
+  margin-left: 124px;
+  margin-right: 123px;
+  margin-top: 450px;
+  background: #e6e6e6;
+  border-radius: 27px;
+}
+
+/* Eliza */
