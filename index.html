@@ -38,12 +38,16 @@
   </head>
 
   <body>
-    <div class="header">
+ <div class="header">
       <div class="container">
-        <div class="header-inner">
+        <div class="header__inner">
           <div class="header__logo">
             <a class="header__logo-link" href="#">
-              <img class="header__logo-img" src="./img/logo.png" alt="logo" />
+              <img
+                class="header__logo-img"
+                src="./img/logo.png"
+                alt="logo"
+              />
             </a>
           </div>
           <ul class="menu">
@@ -64,7 +68,7 @@
             </li>
           </ul>
 
-          <form class="header__form d-flex">
+          <form class="header__form d-flex ">
             <input
               class="form-control me-2"
               type="search"
@@ -76,34 +80,12 @@
             </button>
           </form>
 
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-              style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link" href="#">Войти</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarScrollingDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  RU
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarScrollingDropdown"
-                >
-                  <li><a class="dropdown-item" href="#">KY</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+ <button class="header__btn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+    RU
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><button class="dropdown-item" type="button">KY</button></li>
+
         </div>
       </div>
     </div>
@@ -123,6 +105,8 @@
         <h2>#TechWoman</h2>
       </div>
     </div>
+
+
     <section class="career">
       <div class="container">
         <div class="career-inner">

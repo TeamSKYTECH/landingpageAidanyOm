@@ -8,6 +8,7 @@ body {
   font-family: $secondary-font;
   font-family: $main-font;
   margin: 0;
+  font-style: normal;
   font-family: "Areal", sans-serif;
 }
 
@@ -18,7 +19,7 @@ body {
 
 .header {
   background: #08263f;
-  min-width: 200px;
+  min-height: 120px;
 
   &__inner {
     display: flex;
@@ -38,11 +39,29 @@ body {
     margin: 0;
     padding: 0;
     width: 500px;
+
+    &__item {
+      list-style: none;
+    }
+
+    &__link {
+      font-family: $main-font;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
   }
 
   &__form {
-    width: 300px;
+    width: 200px;
     height: 40px;
+  }
+
+  &__btn {
+    color: #08263f;
   }
 }
 
@@ -95,14 +114,25 @@ body {
     z-index: 10;
     color: #fff;
     text-align: center;
+    padding-top: 190px;
 
     h1 {
+      font-family: $main-font;
+      font-weight: 400;
+      font-size: 71px;
+      line-height: 71px;
+      color: #fff;
       margin: 0;
-      margin-bottom: 15px;
+      margin-bottom: 25px;
       padding: 0;
     }
 
     h2 {
+      font-family: $main-font;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 81px;
+      color: #fff;
       margin: 0;
       padding: 0;
     }
