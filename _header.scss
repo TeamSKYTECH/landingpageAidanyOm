@@ -22,7 +22,7 @@ body {
 
   &__inner {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -41,16 +41,14 @@ body {
   }
 
   &__form {
-      width: 300px;
-      height: 40px;
+    width: 300px;
+    height: 40px;
   }
 }
 
 .menu__item + .menu__item {
   margin-left: 46px;
 }
-
-
 
 // Интро
 
