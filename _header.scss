@@ -42,12 +42,13 @@ body {
 
     &__item {
       list-style: none;
+      font-size: 14px;
     }
 
     &__link {
       font-family: $main-font;
       font-weight: normal;
-      font-size: 16px;
+      font-size: 11px;
       line-height: 18px;
       color: #fff;
       text-transform: uppercase;

@@ -73,17 +73,15 @@
 
 /* Zhenishgul */
 .Section-projects {
-  height: 1510px;
   font-family: Roboto;
 }
 .project-main-title {
   text-align: center;
-  width: 111px;
   height: 30px;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 28px;
   color: #225b93;
-  margin-left: 500px;
-  margin-top: 93px;
+  margin-top: 50px;
 }
 .projects-title {
   text-align: center;
