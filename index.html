@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KG_USA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <!-- <link rel="manifest" href="./img/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" /> -->
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header__logo">
+            <a class="header__logo-link" href="#">
+              <img
+                class="header__logo-img"
+                src="./img/logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link"> Главная </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link"> О нас </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link"> Курсы </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link"> Проекты </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link"> Блок </a>
+            </li>
+          </ul>
+
+          <form class="header__form d-flex ">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Войти</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  RU
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">KY</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="intro__media">
+        <video
+          class="intro__media-video"
+          src="./video/video-finish.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div class="intro__content">
+        <h1>Айдана Омурбаева</h1>
+        <h2>#TechWoman</h2>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
