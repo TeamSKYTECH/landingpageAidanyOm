@@ -1,0 +1,71 @@
+.slider {
+  background: #08263f;
+  margin-top: 40px;
+}
+.family {
+  &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #fed097;
+    padding-top: 114px;
+    padding-bottom: 40px;
+  }
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.slide {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 170px;
+  &__img {
+    width: 630px;
+    height: 500px;
+    & + & {
+      margin-left: 40px;
+    }
+
+    &--ch {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__txt {
+    padding: 20px 20px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+    left: 460px;
+    background: #fff;
+    animation: show 2.5s;
+
+    @keyframes show {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    &--descr {
+      max-width: inherit;
+      font-weight: 700;
+      min-height: 100%;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 1.5;
+    }
+  }
+}
